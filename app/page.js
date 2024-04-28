@@ -1,12 +1,14 @@
 import { Divide, Heading1 } from "lucide-react";
 import Image from "next/image";
 
+import Header from "./_Components/Header";
+import Hero from "./_Components/Hero";
+
 export default function Home() {
   return (
     <div>
-      <h1>
-          Pakistan zindabad!!!
-      </h1>
+      <Header/>
+      <Hero/>
     </div>
   );
 }
